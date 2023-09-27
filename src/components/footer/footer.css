@@ -1,0 +1,54 @@
+.footer {
+  background-color: grey;
+  height: 80px;
+}
+.footer .footerWrapper {
+  padding: 27px 30px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footerWrapper .left {
+  display: flex;
+  align-items: center;
+}
+.footer .footerWrapper .left p {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+.footer .footerWrapper .left p a {
+  color: rgb(192, 4, 4);
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.footer .footerWrapper .right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer .footerWrapper .right .nav1,
+.footer .footerWrapper .right .nav2 {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer .footerWrapper .right .nav1 li,
+.footer .footerWrapper .right .nav2 li {
+  padding: 0 10px;
+}
+.footer .footerWrapper .right .nav1 li a,
+.footer .footerWrapper .right .nav2 li a {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+.footer .footerWrapper .right .nav1 li a:hover,
+.footer .footerWrapper .right .nav2 li a:hover {
+  color: rgb(102, 6, 6);
+  cursor: pointer;
+}

@@ -1,0 +1,144 @@
+.gallery {
+  padding: 30px 30px;
+}
+.gallery .galleryWrapper {
+  display: flex;
+  gap: 25px;
+}
+.gallery .galleryWrapper .galleryImg {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+}
+.gallery .galleryWrapper .galleryImg .top {
+  position: relative;
+  margin-bottom: 10px;
+}
+.gallery .galleryWrapper .galleryImg .top img {
+  width: 100%;
+  cursor: pointer;
+}
+.gallery .galleryWrapper .galleryImg .top .cat {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 20px;
+  left: 20px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.gallery .galleryWrapper .galleryImg .top .cat:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.gallery .galleryWrapper .galleryImg .top .icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 20px;
+  right: 20px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.gallery .galleryWrapper .galleryImg .top .icon:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.gallery .galleryWrapper .galleryImg .top .postInfo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+.gallery .galleryWrapper .galleryImg .top .postInfo ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  gap: 15px;
+}
+.gallery .galleryWrapper .galleryImg .top .postInfo .nav {
+  color: white;
+  font-size: 14px;
+  margin-left: 20px;
+  transition: 0.5s;
+}
+.gallery .galleryWrapper .galleryImg .top .postInfo .nav:hover {
+  color: red;
+}
+.gallery .galleryWrapper .galleryImg .top .postInfo .nav li {
+  font-weight: 600;
+}
+.gallery .galleryWrapper .galleryImg .top .postInfo h3 {
+  padding: 10px 20px 20px 20px;
+  width: 730px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  transition: 0.5s;
+}
+.gallery .galleryWrapper .galleryImg .top .postInfo h3:hover {
+  color: red;
+  cursor: pointer;
+}
+.gallery .galleryWrapper .galleryReader {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+.gallery .galleryWrapper .galleryReader .readerListWrapper {
+  background-color: rgb(247, 245, 245);
+  padding: 20px 15px;
+}
+.gallery .galleryWrapper .galleryReader .readerListWrapper .readerListItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+.gallery .galleryWrapper .galleryReader .readerListWrapper .readerListItem .readerImg img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.gallery .galleryWrapper .galleryReader .readerListWrapper .readerListItem .postInfo {
+  display: flex;
+  flex-direction: column;
+}
+.gallery .galleryWrapper .galleryReader .readerListWrapper .readerListItem .postInfo .title h3 {
+  color: black;
+  font-weight: 800;
+}
+.gallery .galleryWrapper .galleryReader .readerListWrapper .readerListItem .postInfo .title .icon {
+  margin-right: 9px;
+  color: grey;
+}
+.gallery .galleryWrapper .galleryReader .readerListWrapper .readerListItem .postInfo ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.gallery .galleryWrapper .galleryReader .readerListWrapper .readerListItem .postInfo ul li {
+  color: gray;
+}

@@ -1,0 +1,54 @@
+.boxOption .boxOptionWrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.boxOption .boxOptionWrapper .item {
+  position: relative;
+  flex: 1;
+  margin-bottom: 10px;
+}
+.boxOption .boxOptionWrapper .item img {
+  width: 100%;
+  cursor: pointer;
+}
+.boxOption .boxOptionWrapper .item .postInfo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+.boxOption .boxOptionWrapper .item .postInfo ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.boxOption .boxOptionWrapper .item .postInfo .nav {
+  color: white;
+  font-size: 12px;
+  margin-left: 20px;
+  transition: 0.5s;
+}
+.boxOption .boxOptionWrapper .item .postInfo .nav:hover {
+  color: red;
+}
+.boxOption .boxOptionWrapper .item .postInfo .nav li {
+  font-size: 12px;
+  font-weight: 800;
+}
+.boxOption .boxOptionWrapper .item .postInfo h3 {
+  padding: 0 10px 20px 10px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 800;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.boxOption .boxOptionWrapper .item .postInfo h3:hover {
+  color: red;
+}

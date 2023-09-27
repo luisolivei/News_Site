@@ -1,0 +1,69 @@
+.navbarBottom {
+	background-color: rgba(235, 235, 235, 0.9);
+	height: 60px;
+
+	.navbarBottomWrapper {
+		display: flex;
+		align-items: center;
+		padding: 20px 30px;
+		justify-content: space-between;
+		color: rgb(0, 0, 0);
+
+		.item {
+			position: relative;
+			display: flex;
+			align-items: center;
+			cursor: pointer;
+
+			span {
+				font-size: 18px;
+			}
+
+			span:hover {
+				color: rgb(168, 4, 4);
+			}
+		}
+
+		.dropDownMenu1 {
+			position: absolute;
+			top: 40px;
+			width: 160px;
+			padding: 15px;
+			display: flex;
+			flex-direction: column;
+			background-color: white;
+			color: grey;
+			border-bottom: 2px solid black;
+			box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+			z-index: 1;
+
+			span a {
+				display: flex;
+				align-items: center;
+				padding-bottom: 18px;
+				font-size: 16px;
+			}
+
+			a:hover {
+				color: grey;
+			}
+		}
+	}
+
+	input {
+		position: relative;
+		width: 150px;
+		height: 35px;
+		margin-right: 10px;
+		border-radius: 30px;
+		border: 1px solid rgb(168, 4, 4);
+		outline: none;
+		padding-left: 20px;
+	}
+}
+
+.navbarBottom.fixed {
+	position: sticky;
+	top: 0;
+	z-index: 9999;
+}

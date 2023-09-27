@@ -1,0 +1,32 @@
+.table {
+	margin-top: 50px;
+	margin-left: 40px;
+	text-align: center;
+	width: 100%;
+	table,
+	td,
+	th {
+		border: 1px solid #595959;
+		border-collapse: collapse;
+	}
+
+	td,
+	th {
+		padding: 3px;
+		width: 80px;
+		height: 50px;
+		background: #797979;
+		color: white;
+	}
+	th {
+		background: #525252;
+		color: white;
+		font-size: 18px;
+	}
+	.even {
+		background: #fbf8f0;
+	}
+	.odd {
+		background: #fefcf9;
+	}
+}

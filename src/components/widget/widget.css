@@ -1,0 +1,134 @@
+.widget {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.widget .top {
+  padding: 30px 30px 15px;
+  background-color: rgb(241, 240, 240);
+  text-align: center;
+}
+.widget .top img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.widget .center {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-top: 2px solid red;
+  z-index: 0;
+}
+.widget .center h2 {
+  position: relative;
+  margin: 0;
+  color: red;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  z-index: 0;
+}
+.widget .center .icon {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  line-height: 26px;
+  cursor: pointer;
+}
+.widget .bottom {
+  margin-top: -55px;
+}
+.widget .bottom .nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: rgb(250, 248, 248);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 35px;
+}
+.widget .bottom .nav li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.widget .bottom .nav li a > .icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 24px;
+  margin-bottom: 5px;
+  transition: color 0.25s, background-color 0.25s ease-in-out;
+}
+.widget .bottom .nav .facebook > a > span.icon {
+  border: 1px solid #3b5998;
+  color: #3b5998;
+}
+.widget .bottom .nav .facebook > a > span.icon:hover {
+  background-color: #3b5998;
+  color: white;
+}
+.widget .bottom .nav .twitter > a > span.icon {
+  border: 1px solid #00aced;
+  color: #00aced;
+}
+.widget .bottom .nav .twitter > a > span.icon:hover {
+  background-color: #00aced;
+  color: white;
+}
+.widget .bottom .nav .googlePlus > a > span.icon {
+  border: 1px solid #d34836;
+  color: #d34836;
+}
+.widget .bottom .nav .googlePlus > a > span.icon:hover {
+  background-color: #d34836;
+  color: white;
+}
+.widget .bottom .nav .rss > a > span.icon {
+  border: 1px solid #f60;
+  color: #f60;
+}
+.widget .bottom .nav .rss > a > span.icon:hover {
+  background-color: #f60;
+  color: white;
+}
+.widget .bottom .nav .vimeo > a > span.icon {
+  border: 1px solid #4ebbff;
+  color: #4ebbff;
+}
+.widget .bottom .nav .vimeo > a > span.icon:hover {
+  background-color: #4ebbff;
+  color: white;
+}
+.widget .bottom .nav .youtube > a > span.icon {
+  border: 1px solid #b00;
+  color: #b00;
+}
+.widget .bottom .nav .youtube > a > span.icon:hover {
+  background-color: #b00;
+  color: white;
+}
+.widget .bottom .nav li > a > span.count {
+  margin-top: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #111;
+}
+.widget .bottom .nav li > a > span.title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #777;
+  margin-top: -1px;
+  text-transform: uppercase;
+}

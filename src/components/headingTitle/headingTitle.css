@@ -1,0 +1,24 @@
+.headingTitle {
+  border-top: 2px solid red;
+}
+.headingTitle .heading {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  justify-content: space-between;
+}
+.headingTitle .heading .title {
+  font-size: 18px;
+  font-weight: 700;
+  color: red;
+  text-transform: uppercase;
+}
+.headingTitle .heading .icon {
+  display: flex;
+  align-items: center;
+  color: black;
+  gap: 2px;
+}
+.headingTitle .heading .icon .left:hover, .headingTitle .heading .icon .right:hover {
+  color: red;
+}
