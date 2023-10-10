@@ -26,20 +26,28 @@ const NavbarTop = () => {
 						<WiDayCloudy style={{ fontSize: '16px' }} />
 						<span>23°C</span>
 					</div>
-					<BiCalendarAlt style={{ fontSize: '16px' }} />
-					<span>Seg.(18 de setembro)</span>
+					<div className='item'>
+						<BiCalendarAlt style={{ fontSize: '16px' }} />
+						<span>Seg.(18 de setembro)</span>
+					</div>
 				</div>
+				<div className='center'>
+					<div className='item'>
+						<h2>PTNews</h2>
+					</div>
+				</div>
+
 				<div className='right'>
 					<div className='item'>
 						<MdOutlinePersonOutline style={{ fontSize: '18px' }} />
-						<span>Login/Registrar</span>
+						<button className='login'>Login</button>
+						<button className='regist'>Regist</button>
 					</div>
 					<div className='item' onClick={handleDropDown}>
 						<MdOutlineLanguage style={{ fontSize: '18px' }} />
 						<span>Português</span>
 						<RxCaretDown style={{ fontSize: '18px' }} />
 					</div>
-					
 
 					{dropDown && (
 						<ul className='dropDownMenu'>

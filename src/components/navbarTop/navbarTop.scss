@@ -17,7 +17,7 @@
 			.item {
 				display: flex;
 				align-items: center;
-				color: #777777;
+				color: #414141;
 				cursor: pointer;
 				transition: 0.5s;
 
@@ -32,6 +32,23 @@
 			}
 		}
 
+		.center {
+			display: flex;
+			position: relative;
+			align-items: center;
+
+			h2 {
+				font-size: 22px;
+				font-weight: 400;
+				color: #c50000;
+				transition: 0.5s;
+
+				&:hover {
+					color: rgb(109, 109, 109);
+				}
+			}
+		}
+
 		.right {
 			display: flex;
 			position: relative;
@@ -42,7 +59,7 @@
 			.item {
 				display: flex;
 				align-items: center;
-				color: #777777;
+				color: #414141;
 				cursor: pointer;
 				transition: 0.5s;
 
@@ -54,9 +71,43 @@
 					font-size: 15px;
 					font-weight: 500;
 				}
+
+				.login {
+					height: 25px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					border: 1px solid rgb(0, 0, 0);
+					background-color: #dddddd;
+					cursor: pointer;
+					transition: 0.5s ease-in-out;
+					border-radius: 4px;
+					margin-left: 5px;
+
+					&:hover {
+						background-color: rgb(255, 255, 255);
+					}
+				}
+				.regist {
+					height: 25px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					border: 1px solid rgb(0, 0, 0);
+					background-color: #dddddd;
+					cursor: pointer;
+					transition: 0.5s ease-in-out;
+					border-radius: 4px;
+					margin-left: 5px;
+
+					&:hover {
+						background-color: rgb(255, 255, 255);
+					}
+				}
 			}
 
 			.dropDownMenu {
+				z-index: 1;
 				position: absolute;
 				align-items: center;
 				justify-content: center;
@@ -69,7 +120,7 @@
 				background-color: white;
 				color: grey;
 				top: 37px;
-                border-bottom: 2px solid #ce0000;
+				border-bottom: 2px solid #ce0000;
 
 				li {
 					padding: 5px 30px;
@@ -84,8 +135,6 @@
 						color: red;
 					}
 				}
-
-				
 			}
 		}
 	}

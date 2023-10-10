@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import Hotlinks from './components/hotlinks/Hotlinks';
 import MainContent from './components/mainContent/MainContent';
 import NavbarBottom from './components/navbarBottom/NavbarBottom';
@@ -8,11 +9,15 @@ import AudioVideo from './components/audioVideo/AudioVideo';
 import MainBodyTwo from './components/mainBodyTwo/MainBodyTwo';
 import Gallery from './components/gallery/Gallery';
 import Footer from './components/footer/Footer';
+import { useContext } from 'react';
+import { DarkModeContext } from './context/darkModeContext';
+import './style/dark.scss';
 import './main.scss';
-
 function App() {
+	const { darkMode } = useContext(DarkModeContext);
+
 	return (
-		<div className='app'>
+		<div className={darkMode ? 'app dark' : 'app'}>
 			<div className='homeWrapper'>
 				<Home />
 				<NavbarTop />

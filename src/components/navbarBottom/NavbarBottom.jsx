@@ -3,9 +3,12 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import { MdKeyboardArrowDown } from 'react-icons/md';
-import { FaSearch } from 'react-icons/fa';
+import { GoMoon } from 'react-icons/go';
+import { DarkModeContext } from '../../context/darkModeContext';
+import {FaSearch} from 'react-icons/fa';
 import './navbarBottom.scss';
 const NavbarBottom = () => {
+	const { dispatch } = React.useContext(DarkModeContext);
 	const [fix, setFix] = React.useState(false);
 	const [dropdownone, setDropdownone] = React.useState(false);
 	const handleDropDownone = e => {
@@ -18,8 +21,6 @@ const NavbarBottom = () => {
 			setFix(false);
 		}
 	};
-
-	
 
 	window.addEventListener('scroll', handleScroll);
 
@@ -57,6 +58,9 @@ const NavbarBottom = () => {
 				<div className='item'>
 					<input placeholder='Pesquisar' />
 					<FaSearch style={{ fontSize: '18px' }} />
+					<span onClick={() => dispatch({ type: 'TOGGLE' })}>
+						<GoMoon style={{ fontSize: '18px' }} />
+					</span>
 				</div>
 			</div>
 		</div>

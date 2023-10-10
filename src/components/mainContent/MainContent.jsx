@@ -28,7 +28,7 @@ const MainContent = () => {
 				<div className='row'>
 					<div className='col'>
 						<div className='row'>
-							<img src='assets/tecnology-02.jpg' alt='Barcelona' />
+							<img src='assets/rv_medicina.jpg' alt='Tecnologia' />
 							<a className='cat'>Tecnologia</a>
 							<a className='icon'>
 								<MdFlashOn style={{ fontSize: '20px' }} />

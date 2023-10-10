@@ -3,7 +3,8 @@ import './mainBodyTwo.scss';
 
 const Table = () => {
 	return (
-		<div className='mainBodyThree'>
+		
+		<div className='mainBodyTwo'>
 			<div className='left'>
 				<div className='table'>
 					<thead>
