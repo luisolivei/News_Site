@@ -1,16 +1,24 @@
 /* eslint-disable no-undef */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 import { GoMoon } from 'react-icons/go';
 import { DarkModeContext } from '../../context/darkModeContext';
-import {FaSearch} from 'react-icons/fa';
+import { FaSearch } from 'react-icons/fa';
 import './navbarBottom.scss';
+
 const NavbarBottom = () => {
+	let [inputUser, setInputUser] = useState();
 	const { dispatch } = React.useContext(DarkModeContext);
 	const [fix, setFix] = React.useState(false);
 	const [dropdownone, setDropdownone] = React.useState(false);
+
+	function handleChange(e){
+		setInputUser(e.target.value);
+		console.log(inputUser);
+	}
+
 	const handleDropDownone = e => {
 		setDropdownone(!dropdownone);
 	};
@@ -56,13 +64,14 @@ const NavbarBottom = () => {
 				</div>
 
 				<div className='item'>
-					<input placeholder='Pesquisar' />
+					<input onChange={handleChange} name='search' type='text' placeholder='Pesquisar' />
 					<FaSearch style={{ fontSize: '18px' }} />
 					<span onClick={() => dispatch({ type: 'TOGGLE' })}>
 						<GoMoon style={{ fontSize: '18px' }} />
 					</span>
 				</div>
 			</div>
+			{/*inputUser && <h1>Resultado: {inputUser}</h1>*/}
 		</div>
 	);
 };
