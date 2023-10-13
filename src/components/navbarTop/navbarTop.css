@@ -120,3 +120,48 @@
 .navbarTop .navbarContainer .right .dropDownMenu li:hover {
   color: red;
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .navbarTop .navbarContainer .left {
+    padding-right: 5px;
+    gap: 5px;
+  }
+  .navbarTop .navbarContainer .left .item span {
+    display: none;
+  }
+  .navbarTop .navbarContainer .center h2 {
+    font-size: 20px;
+  }
+  .navbarTop .navbarContainer .right .item .login {
+    width: 40px;
+  }
+  .navbarTop .navbarContainer .right .item .regist {
+    width: 42px;
+  }
+  .navbarTop .navbarContainer .right .item span {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .navbarTop .navbarContainer .left .item span {
+    font-size: 14px;
+  }
+  .navbarTop .navbarContainer .center h2 {
+    font-size: 22px;
+    padding-right: 25px;
+  }
+  .navbarTop .navbarContainer .right .item .login {
+    width: 42px;
+  }
+  .navbarTop .navbarContainer .right .item .regist {
+    width: 44px;
+  }
+  .navbarTop .navbarContainer .right .item span {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .navbarTop .navbarContainer .left .item span {
+    color: #c50000;
+  }
+}

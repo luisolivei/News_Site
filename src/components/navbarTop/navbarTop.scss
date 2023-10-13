@@ -139,3 +139,96 @@
 		}
 	}
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	.navbarTop {
+		.navbarContainer {
+			.left {
+				padding-right: 5px;
+				gap: 5px;
+				.item {
+					span {
+						display: none;
+					}
+				}
+			}
+		}
+
+		.navbarContainer {
+			.center {
+				h2 {
+					font-size: 20px;
+				}
+			}
+		}
+
+		.navbarContainer {
+			.right {
+				.item {
+					.login {
+						width: 40px;
+					}
+					.regist {
+						width: 42px;
+					}
+					span {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.navbarTop {
+		.navbarContainer {
+			.left {
+				.item {
+					span {
+						font-size: 14px;
+					}
+				}
+			}
+		}
+
+		.navbarContainer {
+			.center {
+				h2 {
+					font-size: 22px;
+					padding-right: 25px;
+				}
+			}
+		}
+
+		.navbarContainer {
+			.right {
+				.item {
+					.login {
+						width: 42px;
+					}
+					.regist {
+						width: 44px;
+					}
+					span {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	.navbarTop {
+		.navbarContainer {
+			.left {
+				.item {
+					span {
+						color: #c50000;
+					}
+				}
+			}
+		}
+	}
+}

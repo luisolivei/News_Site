@@ -269,3 +269,48 @@
 		}
 	}
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	.mainBodyTwo {
+		flex-direction: column;
+		.left_side {
+			.wg_loader {
+				.calendario {
+					height: 160px;
+					width: 350px;
+					.left {
+						h3 {
+							font-size: 14px;
+						}
+					}
+
+					.center {
+						width: 250px;
+
+						h3 {
+							font-size: 14px;
+						}
+					}
+
+					.right {
+						h3 {
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.mainBodyTwo {
+		flex-direction: column;
+
+		.right_side {
+			.widget3 {
+				margin-top: 80px;
+			}
+		}
+	}
+}

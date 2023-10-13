@@ -9,3 +9,16 @@
   flex: 4;
   width: 100%;
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .mainBody .mainBodyWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .mainBody .mainBodyWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}

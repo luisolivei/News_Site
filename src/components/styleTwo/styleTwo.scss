@@ -52,8 +52,7 @@
 			}
 		}
 
-        
-        .postInfo {
+		.postInfo {
 			position: absolute;
 			bottom: 0;
 			left: 0;
@@ -97,11 +96,7 @@
 					color: red;
 				}
 			}
-    
-		
-        }
-
-		
+		}
 	}
 
 	.bottom {
@@ -110,24 +105,22 @@
 			align-items: center;
 			justify-content: space-between;
 			margin-top: 15px;
-			gap:20px;
+			gap: 20px;
 			padding-top: 15px;
 			border-top: 1px solid black;
 
-
-			.left{
-				img{
+			.left {
+				img {
 					width: 130px;
 					cursor: pointer;
 				}
 			}
 
-
-			.right{
+			.right {
 				display: flex;
 				flex-direction: column;
 
-				.nav{
+				.nav {
 					list-style: none;
 					margin: 0;
 					padding: 0;
@@ -135,22 +128,19 @@
 					align-items: center;
 					gap: 15px;
 
-
-					li{
+					li {
 						font-size: 13px;
 						color: gray;
 						cursor: pointer;
 						transition: 0.5s;
 
-						&:hover{
+						&:hover {
 							color: red;
 						}
-
-
 					}
 				}
 
-				h3{
+				h3 {
 					text-align: start;
 					cursor: pointer;
 					transition: 0.5s;
@@ -158,16 +148,17 @@
 					font-weight: 700;
 					color: black;
 
-
-					&:hover{
+					&:hover {
 						color: red;
 					}
-
 				}
-
-
 			}
-
 		}
 	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
 }

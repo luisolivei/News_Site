@@ -1,73 +1,264 @@
-.wg_loader {
+.mainBodyTwo {
+  display: flex;
+}
+.mainBodyTwo .left_side {
+  display: flex;
+  flex: 8;
+  flex-direction: column;
+  padding: 30px 30px 15px;
+}
+.mainBodyTwo .left_side .wg_loader {
   display: flex;
   margin: 10px 0;
   justify-content: center;
   align-items: center;
+  background-color: red;
+}
+.mainBodyTwo .left_side .wg_loader .calendario {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+}
+.mainBodyTwo .left_side .wg_loader .calendario .left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 37, 37);
+  color: rgb(255, 255, 255);
+  padding: 15px 10px;
+  width: 150px;
+}
+.mainBodyTwo .left_side .wg_loader .calendario .left h3 {
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+}
+.mainBodyTwo .left_side .wg_loader .calendario .left .logo {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.mainBodyTwo .left_side .wg_loader .calendario .center {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10px;
+  background-color: rgb(27, 27, 27);
+  color: white;
+  width: 400px;
+}
+.mainBodyTwo .left_side .wg_loader .calendario .center span {
+  font-size: 16px;
+  font-weight: 800;
+}
+.mainBodyTwo .left_side .wg_loader .calendario .center h3 {
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+}
+.mainBodyTwo .left_side .wg_loader .calendario .right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 37, 37);
+  color: white;
+  padding: 15px 10px;
+  width: 150px;
+}
+.mainBodyTwo .left_side .wg_loader .calendario .right .logo {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.mainBodyTwo .left_side .wg_loader .calendario .right h3 {
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+}
+.mainBodyTwo .right_side {
+  display: flex;
+  flex: 4;
+  flex-direction: column;
+  padding: 30px 30px 15px;
+}
+.mainBodyTwo .right_side .newsLetter .top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-top: 2px solid red;
+  z-index: 0;
+}
+.mainBodyTwo .right_side .newsLetter .top h2 {
+  position: relative;
+  margin: 0;
+  color: red;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  z-index: 0;
+}
+.mainBodyTwo .right_side .newsLetter .top .icon {
+  color: grey;
+  font-size: 18px;
+  line-height: 26px;
+  cursor: pointer;
+}
+.mainBodyTwo .right_side .newsLetter .bottom {
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.mainBodyTwo .right_side .newsLetter .bottom .bottomWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 10px;
+}
+.mainBodyTwo .right_side .newsLetter .bottom .bottomWrapper .content p {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+.mainBodyTwo .right_side .newsLetter .bottom .bottomWrapper form .formInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainBodyTwo .right_side .newsLetter .bottom .bottomWrapper form .formInput input {
+  width: 90%;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 10px;
   background-color: rgb(255, 255, 255);
 }
-.wg_loader .calendario {
+.mainBodyTwo .right_side .newsLetter .bottom .bottomWrapper form .formInput .button {
+  height: 40px;
+  width: 50px;
   display: flex;
-  flex-direction: row;
-}
-.wg_loader .left {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  justify-content: center;
   align-items: center;
-  background-color: rgb(255, 37, 37);
+  justify-content: center;
+  background-color: red;
   color: white;
-  padding: 10px;
+  border: none;
+  cursor: pointer;
 }
-.wg_loader .left .h3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 800;
-}
-.wg_loader .left .span {
-  align-items: center;
-  font-size: 80px;
-}
-.wg_loader .center {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
+.mainBodyTwo .right_side .newsLetter .bottom .bottomWrapper form .formInput .button:hover {
   background-color: rgb(0, 0, 0);
-  color: white;
 }
-.wg_loader .center .h3 {
+.mainBodyTwo .right_side .widget3 {
+  margin-top: 150px;
+}
+.mainBodyTwo .right_side .widget3 .pollWidget {
+  background-color: rgb(235, 235, 235);
+  padding: 20px;
+}
+.mainBodyTwo .right_side .widget3 .pollWidget .title h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  padding-bottom: 15px;
+}
+.mainBodyTwo .right_side .widget3 .pollWidget .options {
+  border-top: 1px solid grey;
+}
+.mainBodyTwo .right_side .widget3 .pollWidget .options form {
   display: flex;
   flex-direction: column;
+  padding-top: 15px;
+}
+.mainBodyTwo .right_side .widget3 .pollWidget .options form .checkBox {
+  position: relative;
+  display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.mainBodyTwo .right_side .widget3 .pollWidget .options form .checkBox label {
+  display: flex;
+  align-items: center;
   gap: 10px;
-  font-size: 12px;
-  font-weight: 800;
+  color: rgb(0, 0, 0);
+  padding: 10px 0;
 }
-.wg_loader .right {
+.mainBodyTwo .right_side .widget3 .pollWidget .options form .checkBox label span {
+  cursor: pointer;
+}
+.mainBodyTwo .right_side .widget3 .pollWidget .options form .checkBox p {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  justify-content: center;
   align-items: center;
-  background-color: rgb(255, 37, 37);
+  justify-content: space-between;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  right: 0;
+  width: 120px;
+  height: 12px;
+  background-color: white;
+  margin-right: 35px;
+  border: 1px solid grey;
+}
+.mainBodyTwo .right_side .widget3 .pollWidget .options form .checkBox p span {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+.mainBodyTwo .right_side .widget3 .pollWidget .options form .checkBox .perc {
+  color: rgb(0, 0, 0);
+}
+.mainBodyTwo .right_side .widget3 .pollWidget .options form button {
+  margin-top: 20px;
+  background-color: red;
   color: white;
-  padding: 10px;
-}
-.wg_loader .right .h3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  font-size: 12px;
+  padding: 3px 15px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  cursor: pointer;
+  border: none;
   font-weight: 800;
+  transition: 0.5s ease-in-out;
 }
-.wg_loader .right .span {
-  align-items: center;
+.mainBodyTwo .right_side .widget3 .pollWidget .options form button:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .mainBodyTwo {
+    flex-direction: column;
+  }
+  .mainBodyTwo .left_side .wg_loader .calendario {
+    height: 160px;
+    width: 350px;
+  }
+  .mainBodyTwo .left_side .wg_loader .calendario .left h3 {
+    font-size: 14px;
+  }
+  .mainBodyTwo .left_side .wg_loader .calendario .center {
+    width: 250px;
+  }
+  .mainBodyTwo .left_side .wg_loader .calendario .center h3 {
+    font-size: 14px;
+  }
+  .mainBodyTwo .left_side .wg_loader .calendario .right h3 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .mainBodyTwo {
+    flex-direction: column;
+  }
+  .mainBodyTwo .right_side .widget3 {
+    margin-top: 80px;
+  }
 }
