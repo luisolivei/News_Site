@@ -239,15 +239,12 @@ export const Food = {
 export const Photo = {
 	id: 1,
 	image1: '/assets/photo-gallery-02.jpg',
-	image1Except: 'Lorem ipsum dolor sit amet consectetur.',
 	image1Author: 'Smith Martinez',
 	image1Date: '07 Jan, 2023',
 	image2: '/assets/photo-gallery-03.jpg',
-	image2Except: 'Lorem ipsum dolor sit amet consectetur.',
 	image2Author: 'Jackson Moore',
 	image2Date: '03 Jan, 2023',
 	image3: '/assets/photo-gallery-04.jpg',
-	image3Except: 'Lorem ipsum dolor sit amet consectetur.',
 	image3Author: 'Courtney Jones',
 	image3Date: '05 Dec, 2022',
 };

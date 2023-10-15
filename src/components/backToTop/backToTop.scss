@@ -1,0 +1,47 @@
+.backToTop {
+	.backToTopbtn {
+		position: fixed;
+		bottom: 82px;
+		right: 360px;
+		height: 45px;
+		width: 45px;
+		border: none;
+		background: red;
+		color: white;
+		border-radius: 50%;
+		cursor: pointer;
+		transition: 0.5s;
+
+		&:hover {
+			background-color: black;
+		}
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.backToTop {
+		.backToTopbtn {
+			right: 5px;
+			width: 35px;
+			height: 35px;
+		}
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.backToTop {
+		.backToTopbtn {
+			right: 8px;
+			width: 40px;
+			height: 40px;
+		}
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	.backToTop {
+		.backToTopbtn {
+			right: 35px;
+		}
+	}
+}

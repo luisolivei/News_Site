@@ -8,6 +8,7 @@ import MainBody from './components/mainBody/MainBody';
 import AudioVideo from './components/audioVideo/AudioVideo';
 import MainBodyTwo from './components/mainBodyTwo/MainBodyTwo';
 import Gallery from './components/gallery/Gallery';
+import BackToTop from './components/backToTop/BackToTop';
 import Footer from './components/footer/Footer';
 import { useContext } from 'react';
 import { DarkModeContext } from './context/darkModeContext';
@@ -29,6 +30,7 @@ function App() {
 				<MainBodyTwo />
 				<Gallery />
 				<Footer />
+				<BackToTop />
 			</div>
 		</div>
 	);

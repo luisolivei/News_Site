@@ -58,3 +58,11 @@
 		}
 	}
 }
+
+@media screen and (max-width: 480px) {
+	.footer {
+		.footerWrapper {
+			flex-direction: column;
+		}
+	}
+}
