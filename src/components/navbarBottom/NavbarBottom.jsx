@@ -6,7 +6,7 @@ import { MdKeyboardArrowDown } from 'react-icons/md';
 import { GoMoon } from 'react-icons/go';
 import { DarkModeContext } from '../../context/darkModeContext';
 import { FaSearch } from 'react-icons/fa';
-import './navbarBottom.scss';
+import './navbarBottom.css';
 
 const NavbarBottom = () => {
 	let [inputUser, setInputUser] = useState();

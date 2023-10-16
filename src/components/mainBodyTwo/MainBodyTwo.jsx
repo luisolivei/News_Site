@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import HeadingTitle from '../headingTitle/HeadingTitle';
 import axios from 'axios';
-import './mainBodyTwo.scss';
+import './mainBodyTwo.css';
 import { FaRegEnvelopeOpen } from 'react-icons/fa';
 import { RiSendPlaneFill } from 'react-icons/ri';
 

@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
 import HeadingTitle from '../headingTitle/HeadingTitle';
-import './styleOne.scss';
+import './styleOne.css';
 
 const StyleOne = ({
 	category,

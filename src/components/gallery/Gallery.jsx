@@ -5,7 +5,7 @@ import { MdVisibility } from 'react-icons/md';
 import BoxOption from '../boxOption/BoxOption';
 import { Photo } from '../../category';
 import { FaQuoteLeft } from 'react-icons/fa';
-import './gallery.scss';
+import './gallery.css';
 
 const Gallery = () => {
 	return (

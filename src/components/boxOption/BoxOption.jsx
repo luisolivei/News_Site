@@ -1,5 +1,5 @@
 import React from 'react';
-import './boxOption.scss';
+import './boxOption.css';
 
 const BoxOption = ({ image1, image1Except, image1Author, image1Date, image2, image2Except, image2Author, image2Date, image3, image3Except, image3Author, image3Date }) => {
 	return (

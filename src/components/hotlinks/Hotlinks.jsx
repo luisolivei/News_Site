@@ -3,7 +3,7 @@
 import React from 'react'
 
 import { MdFavoriteBorder, MdFlashOn, MdStarBorder, MdVisibility, MdWhatshot } from 'react-icons/md'
-import './hotlinks.scss';
+import './hotlinks.css';
 const Hotlinks = () => {
   return (
 		<div className='hotLinks'>

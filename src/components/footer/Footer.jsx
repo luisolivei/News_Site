@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { FaFacebookF, FaGooglePlusG, FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa';
-import './footer.scss';
+import './footer.css';
 
 const Footer = () => {
 	return (

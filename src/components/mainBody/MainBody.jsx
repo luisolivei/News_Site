@@ -3,7 +3,7 @@ import StyleOne from '../styleOne/StyleOne';
 import StyleTwo from '../styleTwo/StyleTwo';
 import Widget from '../widget/Widget';
 import { Sports, Technology } from '../../category';
-import './mainBody.scss';
+import './mainBody.css';
 
 const MainBody = () => {
 	return (

@@ -5,7 +5,7 @@ import { ImGooglePlus } from 'react-icons/im';
 import { GiRss } from 'react-icons/gi';
 import { BsVimeo } from 'react-icons/bs';
 import { TfiYoutube } from 'react-icons/tfi';
-import './widget.scss';
+import './widget.css';
 
 const Widget = () => {
 	return (

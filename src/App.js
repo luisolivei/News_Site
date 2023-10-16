@@ -12,8 +12,8 @@ import BackToTop from './components/backToTop/BackToTop';
 import Footer from './components/footer/Footer';
 import { useContext } from 'react';
 import { DarkModeContext } from './context/darkModeContext';
-import './style/dark.scss';
-import './main.scss';
+import './style/dark.css';
+import './main.css';
 function App() {
 	const { darkMode } = useContext(DarkModeContext);
 

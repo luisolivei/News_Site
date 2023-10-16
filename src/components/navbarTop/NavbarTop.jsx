@@ -5,7 +5,7 @@ import { MdLocationOn, MdOutlineLanguage, MdOutlinePersonOutline } from 'react-i
 import { WiDayCloudy } from 'react-icons/wi';
 import { BiCalendarAlt } from 'react-icons/bi';
 import { RxCaretDown } from 'react-icons/rx';
-import './navbarTop.scss';
+import './navbarTop.css';
 
 const NavbarTop = () => {
 	const [dropDown, setDropDown] = React.useState(false);
