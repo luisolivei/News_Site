@@ -1,12 +1,13 @@
 /* eslint-disable no-undef */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable no-unused-vars */
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 import { GoMoon } from 'react-icons/go';
 import { DarkModeContext } from '../../context/darkModeContext';
 import { FaSearch } from 'react-icons/fa';
 import './navbarBottom.css';
+import { Link } from 'react-router-dom';
 
 const NavbarBottom = () => {
 	let [inputUser, setInputUser] = useState();
@@ -14,7 +15,7 @@ const NavbarBottom = () => {
 	const [fix, setFix] = React.useState(false);
 	const [dropdownone, setDropdownone] = React.useState(false);
 
-	function handleChange(e){
+	function handleChange(e) {
 		setInputUser(e.target.value);
 		console.log(inputUser);
 	}
@@ -36,7 +37,7 @@ const NavbarBottom = () => {
 		<div className={fix ? 'navbarBottom fixed' : 'navbarBottom'}>
 			<div className='navbarBottomWrapper'>
 				<div className='item'>
-					<span>Home</span>
+					<Link to='/'><span>Home</span></Link>
 				</div>
 				<div className='item' onClick={handleDropDownone}>
 					<span>Desporto</span>

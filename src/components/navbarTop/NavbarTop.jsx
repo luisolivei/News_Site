@@ -5,6 +5,7 @@ import { MdLocationOn, MdOutlineLanguage, MdOutlinePersonOutline } from 'react-i
 import { WiDayCloudy } from 'react-icons/wi';
 import { BiCalendarAlt } from 'react-icons/bi';
 import { RxCaretDown } from 'react-icons/rx';
+import { Link } from 'react-router-dom';
 import './navbarTop.css';
 
 const NavbarTop = () => {
@@ -40,8 +41,8 @@ const NavbarTop = () => {
 				<div className='right'>
 					<div className='item'>
 						<MdOutlinePersonOutline style={{ fontSize: '18px' }} />
-						<button className='login'>Login</button>
-						<button className='regist'>Regist</button>
+						<Link to = '/login'><button className='login'>Login</button></Link>
+						<Link to = '/register'><button className='regist'>Regist</button></Link>
 					</div>
 					<div className='item' onClick={handleDropDown}>
 						<MdOutlineLanguage style={{ fontSize: '18px' }} />

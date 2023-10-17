@@ -1,10 +1,11 @@
 /* eslint-disable no-undef */
 import React, { useEffect, useState } from 'react';
 import HeadingTitle from '../headingTitle/HeadingTitle';
-import axios from 'axios';
-import './mainBodyTwo.css';
 import { FaRegEnvelopeOpen } from 'react-icons/fa';
 import { RiSendPlaneFill } from 'react-icons/ri';
+import axios from 'axios';
+import './mainBodyTwo.css';
+
 
 const Table = () => {
 	//const { dados, setDados } = useState([]);
